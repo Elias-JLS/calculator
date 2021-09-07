@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <style>
+    .campo-digito {
+      width: 100%;
+      height: 100px;
+
+      background-color: #F0F0F0;
+      font-size: 36px;
+      text-align: center;
+    }
+
+    .grade {
+      min-height: 100px;
+
+      display: grid;
+
+      margin-top: 4px;
+
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 4px;
+    }
+
+    .grade button {
+      font-size: 48px;
+    }
+
+    .botao-resultado {
+      width: 200px;
+
+      display: block;
+
+      margin-top: 16px;
+      margin-left: auto;
+
+      font-size: 64px;
+      color: white;
+      border-color: white;
+
+      background-color: dodgerblue;
+    }
+  </style>
+</head>
+
+<body>
+  <form name="calculadora">
+    <input class="campo-digito" type="number" name="input">
+
+    <div class="grade">
+      <button type="button" name="um">1</button>
+      <button type="button" name="dois">2</button>
+      <button type="button" name="três">3</button>
+    </div>
+
+    <div class="grade">
+      <button type="button" name="quatro">4</button>
+      <button type="button" name="cinco">5</button>
+      <button type="button" name="seis">6</button>
+    </div>
+
+    <div class="grade">
+      <button type="button" name="sete">7</button>
+      <button type="button" name="oito">8</button>
+      <button type="button" name="nove">9</button>
+    </div>
+
+    <div class="grade">
+      <button type="button" name="mais">+</button>
+      <button type="button" name="limpar">C</button>
+      <button type="button" name="zero">0</button>
+    </div>
+
+    <button class="botao-resultado" type="button" name="resultado">=</button>
+  </form>
+</body>
+
+</html>
