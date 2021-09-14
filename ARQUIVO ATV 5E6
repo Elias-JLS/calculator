@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <style>
+    .campo-digito {
+      largura: 100%;
+      altura: 100px;
+
+      cor de fundo: # F0F0F0;
+      tamanho da fonte: 36px;
+      alinhamento de texto: centro;
+    }
+
+    .grau {
+      altura mínima: 100px;
+
+      display: grade;
+
+      margem superior: 4px;
+
+      colunas-modelo de grade: 1fr 1fr 1fr;
+      gap: 4px;
+    }
+
+    botão .grade {
+      tamanho da fonte: 48px;
+    }
+
+    .botao-resultado {
+      largura: 200px;
+
+      display: bloco;
+
+      margem superior: 16px;
+      margem esquerda: automático;
+
+      tamanho da fonte: 64px;
+      cor branca;
+      cor da borda: branco;
+
+      cor de fundo: dodgerblue;
+    }
+  </style>
+</head>
+
+<body>
+  <form name = "calculadora">
+    <input class = "campo-digito" type = "number" name = "input">
+
+    <div class = "grade">
+      <button type = "button" name = "um"> 1 </button>
+      <button type = "button" name = "dois"> 2 </button>
+      <button type = "button" name = "três"> 3 </button>
+    </div>
+
+    <div class = "grade">
+      <button type = "button" name = "quatro"> 4 </button>
+      <button type = "button" name = "cinco"> 5 </button>
+      <button type = "button" name = "seis"> 6 </button>
+    </div>
+
+    <div class = "grade">
+      <button type = "button" name = "sete"> 7 </button>
+      <button type = "button" name = "oito"> 8 </button>
+      <button type = "button" name = "nove"> 9 </button>
+    </div>
+
+    <div class = "grade">
+      <button type = "button" name = "mais"> + </button>
+      <button type = "button" name = "limpar"> C </button>
+      <button type = "button" name = "zero"> 0 </button>
+    </div>
+
+    <button class = "botao-resultado" type = "button" name = "resultado"> = </button>
+  </form>
+</body>
+
+</html>
