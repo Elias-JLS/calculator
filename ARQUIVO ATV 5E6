@@ -6,7 +6,7 @@
       largura: 100%;
       altura: 100px;
 
-      cor de fundo: # F0F0F0;
+      cor de fundo: # B0C4DE;
       tamanho da fonte: 36px;
       alinhamento de texto: centro;
     }
